@@ -17,4 +17,9 @@ Entity Framework is a data access technology of choice for .NET and ASP.NET data
 - Logging
 - Using SqlServerTypeMapper
 
+### How to install EF Core:
+- Go to Tools > NuGet Package Manager > Package Manager Console
+- Type "Install-Package Microsoft.EntityFrameworkCore.SqlServer" and hit Enter
+- Type "Install-Package Microsoft.EntityFrameworkCore.Tools" and hit Enter
+
 Source: https://www.lynda.com/Entity-Framework-tutorials/Welcome/559226/591532-4.html
