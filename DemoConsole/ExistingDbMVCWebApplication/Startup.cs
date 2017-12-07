@@ -6,8 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using DemoConsole.Models;
 using Microsoft.EntityFrameworkCore;
+using ExistingDbMVCWebApplication.Models;
 
 namespace ExistingDbMVCWebApplication
 {
@@ -24,7 +24,7 @@ namespace ExistingDbMVCWebApplication
         public void ConfigureServices(IServiceCollection services)
         {
             //Connection
-            var connection = @"Data Source=(localdb)\MSSQLLocalDB;Database=ActorDb;Trusted_Connection=True;";
+            var connection = @"Server=(localdb)\MSSQLLocalDB;Database=ActorDb;Trusted_Connection=True;";
 
             //Register connection as a service
             services.AddDbContext<ActorDbContext>(options => options.UseSqlServer(connection));

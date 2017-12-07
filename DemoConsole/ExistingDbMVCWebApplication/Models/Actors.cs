@@ -1,7 +1,8 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using System;
 using System.Collections.Generic;
 
-namespace DemoConsole.Models
+namespace ExistingDbMVCWebApplication.Models
 {
     public partial class Actors
     {

@@ -1,4 +1,4 @@
-﻿using DemoConsole.Models;
+﻿using ExistingDbMVCWebApplication.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -36,7 +36,7 @@ namespace ExistingDbMVCWebApplication.Controllers
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View();
+            return View(actors);
         }
     }
 }
