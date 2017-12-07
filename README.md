@@ -41,4 +41,11 @@ Entity Framework is a data access technology of choice for .NET and ASP.NET data
 - "Update-Database" 
 - Hit Enter
 
+### In order to generate DB schema for ASP.NET project please run following:
+- Open the project
+- Go to Tools > NuGet Package Manager > Package Manager Console
+- Scaffold-DbContext "Data Source=(localdb)\MSSQLLocalDB;Database=ActorDb;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Scaffold-DbContext "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=<db_name>;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
+
 Source: https://www.lynda.com/Entity-Framework-tutorials/Welcome/559226/591532-4.html

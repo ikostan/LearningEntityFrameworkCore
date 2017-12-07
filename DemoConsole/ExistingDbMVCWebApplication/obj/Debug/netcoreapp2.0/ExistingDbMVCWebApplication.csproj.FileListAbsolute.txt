@@ -1,0 +1,11 @@
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\ExistingDbMVCWebApplication\bin\Debug\netcoreapp2.0\ExistingDbMVCWebApplication.deps.json
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\ExistingDbMVCWebApplication\bin\Debug\netcoreapp2.0\ExistingDbMVCWebApplication.runtimeconfig.json
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\ExistingDbMVCWebApplication\bin\Debug\netcoreapp2.0\ExistingDbMVCWebApplication.runtimeconfig.dev.json
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\ExistingDbMVCWebApplication\bin\Debug\netcoreapp2.0\ExistingDbMVCWebApplication.dll
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\ExistingDbMVCWebApplication\bin\Debug\netcoreapp2.0\ExistingDbMVCWebApplication.pdb
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\ExistingDbMVCWebApplication\obj\Debug\netcoreapp2.0\ExistingDbMVCWebApplication.csprojResolveAssemblyReference.cache
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\ExistingDbMVCWebApplication\obj\Debug\netcoreapp2.0\ExistingDbMVCWebApplication.csproj.CoreCompileInputs.cache
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\ExistingDbMVCWebApplication\obj\Debug\netcoreapp2.0\ExistingDbMVCWebApplication.AssemblyInfoInputs.cache
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\ExistingDbMVCWebApplication\obj\Debug\netcoreapp2.0\ExistingDbMVCWebApplication.AssemblyInfo.cs
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\ExistingDbMVCWebApplication\obj\Debug\netcoreapp2.0\ExistingDbMVCWebApplication.dll
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\ExistingDbMVCWebApplication\obj\Debug\netcoreapp2.0\ExistingDbMVCWebApplication.pdb

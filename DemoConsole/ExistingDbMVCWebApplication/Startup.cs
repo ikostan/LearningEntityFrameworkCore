@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using DemoConsole.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ExistingDbMVCWebApplication
 {
@@ -21,6 +23,15 @@ namespace ExistingDbMVCWebApplication
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //Connection
+            var connection = @"Data Source=(localdb)\MSSQLLocalDB;Database=ActorDb;Trusted_Connection=True;";
+
+            //Register connection as a service
+            services.AddDbContext<ActorDbContext>(options => options.UseSqlServer(connection));
+
+            //Add Framework services
+            services.AddApplicationInsightsTelemetry(Configuration);
+
             services.AddMvc();
         }
 
