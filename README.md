@@ -23,7 +23,9 @@ Entity Framework is a data access technology of choice for .NET and ASP.NET data
 - Type "Install-Package Microsoft.EntityFrameworkCore.SqlServer" and hit Enter
 - Type "Install-Package Microsoft.EntityFrameworkCore.Tools" and hit Enter
 
-### In order to be able to use DB reverse engineering please install following::
+### In order to be able to use DB reverse engineering please install following:
+- Open the project
+- Go to Tools > NuGet Package Manager > Package Manager Console
 - Type "Install-Package Microsoft.EntityFrameworkCore.Design" and hit Enter
 - Type "Install-Package Microsoft.EntityFrameworkCore.SqlServer.Design" and hit Enter
 
