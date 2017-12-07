@@ -18,8 +18,21 @@ Entity Framework is a data access technology of choice for .NET and ASP.NET data
 - Using SqlServerTypeMapper
 
 ### How to install EF Core:
+- Open the project
 - Go to Tools > NuGet Package Manager > Package Manager Console
 - Type "Install-Package Microsoft.EntityFrameworkCore.SqlServer" and hit Enter
 - Type "Install-Package Microsoft.EntityFrameworkCore.Tools" and hit Enter
+
+### In order to create a new Migration Schema:
+- Open the project
+- Go to Tools > NuGet Package Manager > Package Manager Console
+- "Add-Migration <migration_name>" (type "Initial" in case it's your first migration)
+- Hit Enter
+
+### In order to update DB Schema (applay a new/lates migration):
+- Open the project
+- Go to Tools > NuGet Package Manager > Package Manager Console
+- "Update-Database" 
+- Hit Enter
 
 Source: https://www.lynda.com/Entity-Framework-tutorials/Welcome/559226/591532-4.html

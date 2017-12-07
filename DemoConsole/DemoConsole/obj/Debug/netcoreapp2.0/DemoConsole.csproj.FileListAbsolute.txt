@@ -6,3 +6,6 @@ C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\DemoConso
 C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\DemoConsole\obj\Debug\netcoreapp2.0\DemoConsole.csproj.CoreCompileInputs.cache
 C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\DemoConsole\obj\Debug\netcoreapp2.0\DemoConsole.AssemblyInfoInputs.cache
 C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\DemoConsole\obj\Debug\netcoreapp2.0\DemoConsole.AssemblyInfo.cs
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\DemoConsole\bin\Debug\netcoreapp2.0\DemoConsole.pdb
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\DemoConsole\obj\Debug\netcoreapp2.0\DemoConsole.dll
+C:\Users\superadmin\Desktop\C#\LearningEntityFrameworkCore\DemoConsole\DemoConsole\obj\Debug\netcoreapp2.0\DemoConsole.pdb
